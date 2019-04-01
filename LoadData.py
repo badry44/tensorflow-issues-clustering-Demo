@@ -22,10 +22,3 @@ start = time. time()
 downloadPagesOf100(30,fileNameToWriteIn="3k closed issues",state="closed")
 end = time. time()
 print (end-start)
-
-#f= open("guru99.txt","w+")
-#f.write(page)
-#f.close() 
-#jsonFormat = response.json() # returns dic type with means if we do jsonFormat['message'] will parse it and get the message 
-#print (type(jsonFormat))
-#print(jsonFormat)
